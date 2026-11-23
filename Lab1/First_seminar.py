@@ -15,5 +15,8 @@ class ColorTranslator:
 print(ColorTranslator.rgb_to_yuv(255,0,0))
 print(ColorTranslator.yuv_to_rgb(81.535, 90.26, 239.945))
 
+#For exercice 3) The chroma lie we have used the following commands for exporting the images:
+#ffmpeg -i ferminazo.jpg -pix_fmt yuv444p ferminazo_444.yuv (this for yuv444p)
 
+#For blurring the image (only the chroma) we have used the following command:
 
